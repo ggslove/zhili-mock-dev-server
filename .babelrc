@@ -1,0 +1,30 @@
+{
+  "sourceMaps": true,
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": 3,
+        // "targets": {
+        //   "esmodules": true
+        // }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "legacy": true
+      }
+    ],
+    "@babel/plugin-proposal-export-default-from"
+  ]
+}

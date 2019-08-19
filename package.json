@@ -1,0 +1,33 @@
+{
+  "name": "zhili-mock-dev-server",
+  "version": "1.0.1",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-register": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.0.42",
+    "@types/koa": "^2.0.49",
+    "typescript": "^3.5.3",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "core-js": "^3.1.4",
+    "cross-env": "^5.2.0",
+    "cross-spawn": "^6.0.5"
+  }
+}
